@@ -1,0 +1,301 @@
+*{
+	box-sizing: border-box;
+	font-family: "Helvetica Neue", "Helvetica", sans-serif;
+	color: #333333;
+
+}
+
+body {
+	background-color: rgb(221,221,221);									/*Establishes the gray background*/
+}
+
+.fa-bars {
+	position: absolute;
+	top: -100px;
+	right: -100px;
+
+}
+
+section {																/*Establishes the box's size, which contain the whole billboard*/
+	width: 85%;
+	min-width: 400px;
+	background-color: #fff;
+	margin: 0 auto;
+
+}
+
+h1 {																	/*Formats the heading logos of the page*/
+	margin: 0;
+}
+
+a {																		/*Any link will have the traditional underlined blue style*/
+	text-decoration: none;
+}
+
+.all {																	/*flex property will aply to all the body section*/
+	flex-wrap: flex;
+}
+
+.logos{																	/*modifies the space for the heading logos*/
+	background: linear-gradient(#3d3d3d, #2f2f2f);
+	display: flex;
+	height: 60px	;
+}
+
+.logo {																	/*Modifies each image of the heading*/
+	height: 60px;
+	width: auto;
+}
+
+.topnav {																/*Top Navigation Var (10 elements)*/
+	min-width: 400px;
+	font-size: 12px;
+	background-color: #2f2f2f;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.natoele {																/*Modifies each element of the Top Navigation bar*/
+	color: white;
+	font-size: 14px;
+	padding: 10px 10px;
+}
+
+.secondnav {															/*Second Navigation Bar (2 elements and the sel)*/
+	display: flex;
+	font-size: 14px;
+	margin: 10px 10px;
+	margin-left: 50px;
+	flex-wrap: wrap;
+}
+
+.element {																/*Yellow elements*/
+	display: flex;
+	max-width: 100%;
+	color: #3E7FBB;
+	background-color: #fbffdd;
+	padding: 10px;
+	margin: 10px 5px;
+}
+
+.sel {																	/*blue element*/
+	color: #333333;
+	background-color: #B9CFFF;
+}
+
+.rowcontent {															/*this box contains everything down the heading logos and first nav bars*/
+	margin: 0;
+	margin-bottom: 10px;
+	padding-bottom: 0;
+	border-bottom: 2px solid #999;
+	display: block;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-shrink: 3;
+}
+
+.title1 {																/*Main title: THE MFAH: An Architectural History-*/
+	font-size: 40px;
+	padding-bottom: 10px;
+	margin: 10px;
+}
+
+.title2 {																/*Subtitles: About the MFAH, Architectural Legacy, etc.*/
+	font-size: 36px;
+	flex-shrink: 0;
+}
+
+.parrtext {
+	font-size: 14px;
+	margin: 0;
+}
+
+.t1 {
+	margin-right: 20px;
+}
+
+.t2 {
+	margin-left: 20px;
+}
+
+.learnmore {
+	color: #3A539B;
+}
+
+.parrdesc {
+	list-style: none;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 14px;
+	margin-left: 0;
+	padding: 3px 0;
+}
+
+.colulef {
+	width: 65%;
+	min-width: 400px;
+	margin: 0 20px;
+}
+
+.columnw {
+	border-top: 2px solid #999;
+	padding-bottom: 20px;
+	margin: 20px;
+}
+
+.content1 {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.content2 {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+}
+
+.columntext {
+	flex: 3;
+}
+
+.columnimage {
+	flex: 2;
+}
+
+.colurig{
+	max-width: 300px;
+
+	margin: 20px;
+}
+
+.title3 {
+	font-size: 30px
+	margin-bottom: 10px;
+}
+
+.upcngevtbl {
+	margin-top: 20px;
+	padding-top: 0;
+}
+
+.rowupcom {
+	padding: 0 0 5px 0;
+	margin: 0 0 10px 0;
+	display: flex;
+	flex-wrap: nowrap;
+	align-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.desco {
+	outline: 2px solid red;
+	width: 70%;
+	margin-left: 0;
+	margin-top: 0;
+	padding: 5px 0;
+}
+
+.desimg {
+	width: 30%;
+	margin: 0;
+	padding: 0;
+}
+
+.upcngevdes {
+	list-style: none;
+	font-size: 12px;
+	text-align: left;
+	margin-left: 0;
+	padding: 5px 10px;
+
+}
+
+.upcmlink {
+	color: #3A539B;
+}
+
+.viewAll {
+	text-align: right;
+}
+
+.viewall {
+	color: #3E7FBB;
+	font-size: 12px;
+	padding-right: 0;
+	margin: 0;
+
+}
+
+.fa-angle-double-right{
+	color: #3E7FBB;
+}
+
+.bottomnav {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.naboele {
+	font-size: 12px;
+	margin: 10px;
+	padding: 0 20px;
+}
+
+.fa-caret-right {
+	color: #DB4B38;
+}
+
+.fixedbox {
+	background-color: #3A539B;
+	padding: 10px;
+	margin: 20px;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+}
+
+.linker {
+	color: #ffffff;
+	padding: 5px;
+	display: block;
+}
+
+.fa-envelope, .fa-ticket-alt {
+	color: #DB4B38;
+
+}
+
+@media only screen and (max-width: 1100px) {
+    section {
+    	width: 500px;
+    }
+
+    .logos {
+    	position: relative;
+    }
+
+    .label, .topnav, .fixedbox {
+        display: none;
+    }
+
+    .element {
+    	width: 400px;
+    	margin: 0;
+    }
+
+
+    .fa-bars {
+    	position: absolute;
+    	top:20px;
+    	right: 50px;
+    	color: white;
+    }
+}
